@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Build / temp
+*.egg-info/
+dist/
+build/
+*.log
+test_run_artifacts/
+cloud_cache/
+scripts/cloud_cache/
+*.webm
+
+# Assets (large synced files - keep tracked manually)
+# assets/jy_sync/
+scratch/
+# Local configuration, user assets and test output
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+.ruff_cache/
+tests/output/
+assets/artistEffect/
+assets/jy_sync/
+data/jy_cached_audio.csv
